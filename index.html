@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculadora Científica</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="calculadora">
+    <h1>Calculadora Científica</h1>
+
+    <!-- Campo de expressão -->
+    <input type="text" id="expressao" placeholder="Digite ou use os botões">
+
+    <!-- Botões organizados -->
+    <div class="botoes">
+      <!-- Linha 1 -->
+      <button onclick="inserir('7')">7</button>
+      <button onclick="inserir('8')">8</button>
+      <button onclick="inserir('9')">9</button>
+      <button onclick="inserir('/')">÷</button>
+      <button onclick="inserir('sqrt(')">√</button>
+
+      <!-- Linha 2 -->
+      <button onclick="inserir('4')">4</button>
+      <button onclick="inserir('5')">5</button>
+      <button onclick="inserir('6')">6</button>
+      <button onclick="inserir('*')">×</button>
+      <button onclick="inserir('**')">^</button>
+
+      <!-- Linha 3 -->
+      <button onclick="inserir('1')">1</button>
+      <button onclick="inserir('2')">2</button>
+      <button onclick="inserir('3')">3</button>
+      <button onclick="inserir('-')">-</button>
+      <button onclick="inserir('%')">%</button>
+
+      <!-- Linha 4 -->
+      <button onclick="inserir('0')">0</button>
+      <button onclick="inserir('.')">.</button>
+      <button onclick="inserir('(')">(</button>
+      <button onclick="inserir(')')">)</button>
+      <button onclick="inserir('+')">+</button>
+
+      <!-- Linha 5 -->
+      <button onclick="inserir('log(')">log</button>
+      <button onclick="inserir('!')">n!</button>
+      <button onclick="limpar()">C</button>
+      <button class="igual" onclick="calcular()">=</button>
+    </div>
+
+    <!-- Resultado -->
+    <p id="resultado">Resultado: </p>
+
+    <!-- Histórico -->
+    <h3>Histórico</h3>
+    <ul id="historico"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

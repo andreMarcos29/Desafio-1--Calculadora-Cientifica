@@ -12,3 +12,5 @@ COMO FAZER FUNCIONAR
 3- Instale a extenção live server(fica mais facil em minha opniao mas se quiser tentar do seu jeito fica a vontade😁).
 4- Após instalar clica com o botão direito em cima do arquivo INDEX.HTML e clica em OPEN WITH LIVE SERVER
 5- Após fazer tudo isso voce tera a sua calculadora cientifica pronta
+
+<img width="583" height="694" alt="image" src="https://github.com/user-attachments/assets/365e6e1b-7fea-4759-b6c8-300ed76182d6" />
